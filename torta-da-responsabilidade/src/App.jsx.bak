@@ -1,0 +1,12 @@
+cat > src/App.jsx <<'EOF'
+export default function App() {
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-gray-50">
+      <div className="text-center">
+        <h1 className="text-4xl font-bold text-blue-500">Tailwind funcionando! 🎉</h1>
+        <p className="mt-4 text-gray-600">Se isto aparecer azul, está ok</p>
+      </div>
+    </div>
+  )
+}
+EOF
